@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4576A818E5685C004CDF44 /* csit5400robot.1 in Copy Files */ = {isa = PBXBuildFile; fileRef = 3E4576A718E5685C004CDF44 /* csit5400robot.1 */; };
+		3E4576AF18E569C2004CDF44 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4576AE18E569C2004CDF44 /* GLUT.framework */; };
+		3E4576B118E569CB004CDF44 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4576B018E569CB004CDF44 /* OpenGL.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3E4576B718E569FC004CDF44 /* a2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4576B218E569FC004CDF44 /* a2.cpp */; };
+		3E4576B818E569FC004CDF44 /* primitive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4576B318E569FC004CDF44 /* primitive.cpp */; };
+		3E4576B918E569FC004CDF44 /* trackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E4576B518E569FC004CDF44 /* trackball.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E4576A018E5685C004CDF44 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3E4576A818E5685C004CDF44 /* csit5400robot.1 in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E4576A218E5685C004CDF44 /* csit5400robot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = csit5400robot; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4576A718E5685C004CDF44 /* csit5400robot.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = csit5400robot.1; sourceTree = "<group>"; };
+		3E4576AE18E569C2004CDF44 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		3E4576B018E569CB004CDF44 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3E4576B218E569FC004CDF44 /* a2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = a2.cpp; sourceTree = "<group>"; };
+		3E4576B318E569FC004CDF44 /* primitive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = primitive.cpp; sourceTree = "<group>"; };
+		3E4576B418E569FC004CDF44 /* primitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = primitive.h; sourceTree = "<group>"; };
+		3E4576B518E569FC004CDF44 /* trackball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trackball.cpp; sourceTree = "<group>"; };
+		3E4576B618E569FC004CDF44 /* trackball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trackball.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E45769F18E5685C004CDF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4576B118E569CB004CDF44 /* OpenGL.framework in Frameworks */,
+				3E4576AF18E569C2004CDF44 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E45769918E5685C004CDF44 = {
+			isa = PBXGroup;
+			children = (
+				3E4576B018E569CB004CDF44 /* OpenGL.framework */,
+				3E4576AE18E569C2004CDF44 /* GLUT.framework */,
+				3E4576A418E5685C004CDF44 /* csit5400robot */,
+				3E4576A318E5685C004CDF44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E4576A318E5685C004CDF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4576A218E5685C004CDF44 /* csit5400robot */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4576A418E5685C004CDF44 /* csit5400robot */ = {
+			isa = PBXGroup;
+			children = (
+				3E4576B218E569FC004CDF44 /* a2.cpp */,
+				3E4576B318E569FC004CDF44 /* primitive.cpp */,
+				3E4576B418E569FC004CDF44 /* primitive.h */,
+				3E4576B518E569FC004CDF44 /* trackball.cpp */,
+				3E4576B618E569FC004CDF44 /* trackball.h */,
+				3E4576A718E5685C004CDF44 /* csit5400robot.1 */,
+			);
+			path = csit5400robot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E4576A118E5685C004CDF44 /* csit5400robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4576AB18E5685C004CDF44 /* Build configuration list for PBXNativeTarget "csit5400robot" */;
+			buildPhases = (
+				3E45769E18E5685C004CDF44 /* Sources */,
+				3E45769F18E5685C004CDF44 /* Frameworks */,
+				3E4576A018E5685C004CDF44 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = csit5400robot;
+			productName = csit5400robot;
+			productReference = 3E4576A218E5685C004CDF44 /* csit5400robot */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E45769A18E5685C004CDF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Calvin;
+			};
+			buildConfigurationList = 3E45769D18E5685C004CDF44 /* Build configuration list for PBXProject "csit5400robot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E45769918E5685C004CDF44;
+			productRefGroup = 3E4576A318E5685C004CDF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E4576A118E5685C004CDF44 /* csit5400robot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E45769E18E5685C004CDF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4576B718E569FC004CDF44 /* a2.cpp in Sources */,
+				3E4576B918E569FC004CDF44 /* trackball.cpp in Sources */,
+				3E4576B818E569FC004CDF44 /* primitive.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E4576A918E5685C004CDF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E4576AA18E5685C004CDF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E4576AC18E5685C004CDF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E4576AD18E5685C004CDF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E45769D18E5685C004CDF44 /* Build configuration list for PBXProject "csit5400robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4576A918E5685C004CDF44 /* Debug */,
+				3E4576AA18E5685C004CDF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4576AB18E5685C004CDF44 /* Build configuration list for PBXNativeTarget "csit5400robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4576AC18E5685C004CDF44 /* Debug */,
+				3E4576AD18E5685C004CDF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E45769A18E5685C004CDF44 /* Project object */;
+}
